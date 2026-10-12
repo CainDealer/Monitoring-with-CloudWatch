@@ -1,2 +1,11 @@
 # Monitoring-with-CloudWatch
 Thiết lập hệ thống giám sát cho ứng dụng web, thu thập metric tùy chỉnh và log bằng CloudWatch Agent, cảnh báo và dashboard.
+# Thông tin
+Môn học Điện toán đám mây
+GVHD: TS Huỳnh Xuân Phụng
+Sinh viên thực hiện:
+Nguyễn Tuấn Khang - 24110025 - CainDealer
+Đào Gia Khiêm - 24110026 
+
+# Báo cáo tuần 1
+Link: 
