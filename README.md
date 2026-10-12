@@ -5,7 +5,7 @@ Môn học Điện toán đám mây
 GVHD: TS Huỳnh Xuân Phụng  
 Sinh viên thực hiện:  
 Nguyễn Tuấn Khang - 24110025 - CainDealer  
-Đào Gia Khiêm - 24110026   
+Đào Gia Khiêm - 24110026 - Chinossssssssssssssssssssssssssssssssss  
 
 # Báo cáo tuần 1  
 [Link](https://github.com/CainDealer/Monitoring-with-CloudWatch/blob/main/tailieu/phancongtuan1.md)  
