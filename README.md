@@ -2,10 +2,10 @@
 Thiết lập hệ thống giám sát cho ứng dụng web, thu thập metric tùy chỉnh và log bằng CloudWatch Agent, cảnh báo và dashboard.
 # Thông tin
 Môn học Điện toán đám mây
-GVHD: TS Huỳnh Xuân Phụng
-Sinh viên thực hiện:
-Nguyễn Tuấn Khang - 24110025 - CainDealer
-Đào Gia Khiêm - 24110026 
+GVHD: TS Huỳnh Xuân Phụng  
+Sinh viên thực hiện:  
+Nguyễn Tuấn Khang - 24110025 - CainDealer  
+Đào Gia Khiêm - 24110026   
 
-# Báo cáo tuần 1
-Link: 
+# Báo cáo tuần 1  
+[Link](https://github.com/CainDealer/Monitoring-with-CloudWatch/blob/a950b71d17da814ba2270561372eedbf694f5453/tailieu/phancongtuan1.md)
