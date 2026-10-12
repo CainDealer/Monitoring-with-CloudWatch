@@ -1,3 +1,4 @@
+#!/bin/bash
 # Tạo S3 Bucket
 aws s3api create-bucket --bucket cloudwatch-monitoring-logs-project --region us-east-1
 
