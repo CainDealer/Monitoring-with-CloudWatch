@@ -8,4 +8,4 @@ Nguyễn Tuấn Khang - 24110025 - CainDealer
 Đào Gia Khiêm - 24110026   
 
 # Báo cáo tuần 1  
-Link:   
+[Link](https://github.com/CainDealer/Monitoring-with-CloudWatch/blob/a950b71d17da814ba2270561372eedbf694f5453/tailieu/phancongtuan1.md)
