@@ -1,8 +1,28 @@
 #!/bin/bash
-# Tạo S3 Bucket
-aws s3api create-bucket --bucket cloudwatch-monitoring-logs-project --region us-east-1
+set -e
 
-# Gắn Tag
-aws s3api put-bucket-tagging --bucket cloudwatch-monitoring-logs-project --tagging 'TagSet=[{Key=Project,Value=CloudWatch-Monitoring},{Key=Owner,Value=TuanKhang}]'
+BUCKET_NAME="student-project"
+REGION="ap-southeast-1"
 
-aws s3api put-public-access-block --bucket cloudwatch-monitoring-logs-project --public-access-block-configuration "BlockPublicAcls=true,IgnorePublicAcls=true,BlockPublicPolicy=true,RestrictPublicBuckets=true"
+# Tạo S3 Bucket tại Singapore
+aws s3api create-bucket \
+  --bucket "$BUCKET_NAME" \
+  --region "$REGION" \
+  --create-bucket-configuration LocationConstraint="$REGION"
+
+# Bật chặn truy cập công khai
+aws s3api put-public-access-block \
+  --bucket "$BUCKET_NAME" \
+  --public-access-block-configuration \
+  BlockPublicAcls=true,IgnorePublicAcls=true,BlockPublicPolicy=true,RestrictPublicBuckets=true
+
+# Gắn tag cho Bucket
+aws s3api put-bucket-tagging \
+  --bucket "$BUCKET_NAME" \
+  --tagging 'TagSet=[{Key=Project,Value=AWS-Lab},{Key=Environment,Value=Development},{Key=Owner,Value=Student}]'
+
+# Kiểm tra Bucket
+aws s3api head-bucket --bucket "$BUCKET_NAME"
+aws s3api get-bucket-tagging --bucket "$BUCKET_NAME"
+
+echo "Da tao S3 Bucket thanh cong: $BUCKET_NAME"
