@@ -1,6 +1,6 @@
 # Nguyễn Tuấn Khang - 24110025  
 Số giờ: 8 giờ  
-Kiểm tra VPC, subnet, Internet Gateway, route table đã tạo ở tuần 1
+Kiểm tra VPC, subnet, Internet Gateway, route table đã tạo ở tuần 1  
 Tạo EC2 chạy ứng dụng web thử nghiệm, kiểm tra truy cập và trạng thái hoạt động  
 Cài đặt CloudWatch Agent trên EC2  
 Cấu hình Agent thu thập các chỉ số bổ sung: RAM, dung lượng đĩa và mức sử dụng đĩa  
