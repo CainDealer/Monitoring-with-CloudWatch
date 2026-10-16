@@ -34,5 +34,4 @@ Tạo CloudWatch Dashboard tổng hợp các chỉ số
 Tạo CloudWatch Alarm cảnh báo khi CPU vượt ngưỡng  
 Hoàn thiện script tự động hóa và tài liệu hướng dẫn  
 Tìm hiểu và triển khai tự động hóa hạ tầng bằng AWS CLI hoặc Infrastructure as Code  
-Viết script AWS CLI để tự động hóa việc kiểm tra hoặc triển khai tài nguyên  
 Xử lý lỗi cấu hình và quyền truy cập  
