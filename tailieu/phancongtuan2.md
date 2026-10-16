@@ -18,11 +18,15 @@ Link: [ảnh trong AWS](https://github.com/CainDealer/Monitoring-with-CloudWatch
 Số giờ: 8 giờ  
 Tạo CloudWatch Log Group để nhận log ứng dụng web hoặc web server từ EC2  
 Thiết lập thời gian lưu log (retention 7 ngày)  
+Link: [Log group có Retention = 1 week](https://github.com/CainDealer/Monitoring-with-CloudWatch/blob/main/tailieu/anhminhchung/LoggroupcoRetention7days.png)  
 Tạo Metric Filter để đếm lỗi HTTP 5xx trong log  
+Link: [Metric filter](https://github.com/CainDealer/Monitoring-with-CloudWatch/blob/main/tailieu/anhminhchung/Metric%20filter.png)  
 Tạo SNS Topic và đăng ký email nhận cảnh báo, xác nhận đăng ký email  
+Link: [SNS subscription Confirmed](https://github.com/CainDealer/Monitoring-with-CloudWatch/blob/main/tailieu/anhminhchung/SNSsubscriptionstatusConfirmed.png)  
 Tạo thử một CloudWatch Alarm dựa trên metric lỗi 5xx và cấu hình gửi thông báo qua SNS  
-Tạo dữ liệu lỗi thử nghiệm để kiểm tra Metric Filter và Alarm  
-Link:  
+Link: [Alarm In alarm](https://github.com/CainDealer/Monitoring-with-CloudWatch/blob/main/tailieu/anhminhchung/AlarmInalarm.png) [Email cảnh báo](https://github.com/CainDealer/Monitoring-with-CloudWatch/blob/main/tailieu/anhminhchung/Emailcanhbao.png)  
+Tạo dữ liệu lỗi thử nghiệm để kiểm tra Metric Filter và Alarm   
+Link: [Dữ liệu lõi thử nghiệm](https://github.com/CainDealer/Monitoring-with-CloudWatch/blob/main/ma/DuLieuLoiThuNghiem.sh)  
 
 # Kế hoạch tuần 3
 
