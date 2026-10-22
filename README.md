@@ -13,3 +13,6 @@ Nguyễn Tuấn Khang - 24110025 - CainDealer
 # Báo cáo tuần 2
 [Link](https://github.com/CainDealer/Monitoring-with-CloudWatch/blob/main/tailieu/phancongtuan2.md)  
 
+# Báo cáo tuần 3
+[Link](https://github.com/CainDealer/Monitoring-with-CloudWatch/blob/main/tailieu/phancongtuan3.md)  
+
