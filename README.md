@@ -16,7 +16,7 @@ Nguyễn Tuấn Khang - 24110025 - CainDealer
 # Báo cáo tuần 3
 [Link](https://github.com/CainDealer/Monitoring-with-CloudWatch/blob/main/tailieu/phancongtuan3.md)  
 # Báo cáo tuần 4
-[Link]()
+[Link](https://github.com/CainDealer/Monitoring-with-CloudWatch/blob/main/tailieu/phancongtuan4.md)
 
 # Yêu cầu trước khi triển khai 
 Tài khoản AWS hoặc AWS Academy Learner Lab  
