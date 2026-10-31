@@ -128,7 +128,8 @@ Tạo CloudWatch Alarm với:
 - Period: 1 minute  
 - Threshold: Greater than or equal to 5  
 - Evaluation period: 1 of 1  
-- Notification: SNS Topic đã tạo
+- Notification: SNS Topic đã tạo  
+
 Truy cập CloudWatch -> Dashboards để tạo dashboard sau đó thêm các widget CPUUtilization, mem_used_percent, HTTP5xxCount, disk_used_percent để theo dõi  
 Cuối cùng tạo endpoint để kiểm thử HTTP 500 trong môi trường thử nghiệm bằng cấu hình Nginx:  
 ```conf
