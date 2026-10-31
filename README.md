@@ -123,12 +123,12 @@ Truy cập Log Management trong CloudWatch để kiểm tra hai Log Groups:
 Thiết lập thời gian lưu trữ Logs là 7 ngày  
 Tại Log Group Access, tạo Metric Filter với Filter pattern `[ip, identity, user, timestamp, request, status_code=5*, size]` và Metric Value 1  
 Truy cập Amazon SNS -> Topics để tạo Subscription với Protocol là Email và xác nhận đăng ký email  
-Tạo CloudWatch Alarm với:  
+Tạo CloudWatch Alarm với:
 - Statistic: Sum  
 - Period: 1 minute  
 - Threshold: Greater than or equal to 5  
 - Evaluation period: 1 of 1  
-- Notification: SNS Topic đã tạo  
+- Notification: SNS Topic đã tạo
 Truy cập CloudWatch -> Dashboards để tạo dashboard sau đó thêm các widget CPUUtilization, mem_used_percent, HTTP5xxCount, disk_used_percent để theo dõi  
 Cuối cùng tạo endpoint để kiểm thử HTTP 500 trong môi trường thử nghiệm bằng cấu hình Nginx:  
 ```conf
