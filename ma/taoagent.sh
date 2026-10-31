@@ -29,6 +29,24 @@ sudo tee /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json > /de
         "metrics_collection_interval": 60
       }
     }
+  },
+  "logs": {
+    "logs_collected": {
+      "files": {
+        "collect_list": [
+          {
+            "file_path": "/var/log/nginx/access.log",
+            "log_group_name": "/aws/ec2/cloudwatch-monitoring/nginx/access",
+            "log_stream_name": "{instance_id}"
+          },
+          {
+            "file_path": "/var/log/nginx/error.log",
+            "log_group_name": "/aws/ec2/cloudwatch-monitoring/nginx/error",
+            "log_stream_name": "{instance_id}"
+          }
+        ]
+      }
+    }
   }
 }
 EOF
